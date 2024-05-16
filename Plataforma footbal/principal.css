@@ -16,20 +16,44 @@
 
 
 .carousel-item img {
-    object-fit: cover; /* Ajustar la imagen al tamaño del contenedor */
-    height: 400px; /* Altura fija para todas las imágenes */
+    object-fit: cover;
+    /* Ajustar la imagen al tamaño del contenedor */
+    height: 400px;
+    /* Altura fija para todas las imágenes */
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-    padding: 20px; /* Espaciado interior */
-    color: #fff; /* Color del texto */
-    border-radius: 10px; /* Borde redondeado */
-    position: absolute; /* Posición absoluta para superposición */
-    top: 50%; /* Posicionamiento vertical */
-    left: 50%; /* Posicionamiento horizontal */
-    transform: translate(-50%, -50%); /* Centrar vertical y horizontalmente */
-    width: 80%; /* Ancho del 80% del contenedor padre */
-    text-align: center; /* Alinear texto al centro */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
+    padding: 20px;
+    /* Espaciado interior */
+    color: #fff;
+    /* Color del texto */
+    border-radius: 10px;
+    /* Borde redondeado */
+    position: absolute;
+    /* Posición absoluta para superposición */
+    top: 50%;
+    /* Posicionamiento vertical */
+    left: 50%;
+    /* Posicionamiento horizontal */
+    transform: translate(-50%, -50%);
+    /* Centrar vertical y horizontalmente */
+    width: 80%;
+    /* Ancho del 80% del contenedor padre */
+    text-align: center;
+    /* Alinear texto al centro */
 }
 
+.form-group {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.form-group button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 2px;
+}
